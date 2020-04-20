@@ -12,7 +12,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - name: checkout tag
+        uses: actions/checkout@v2
+        run: git checkout v1.2.6 
       - name: Update submodules
         run: git submodule update --init --recursive
       - name: set up JDK 1.8
