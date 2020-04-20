@@ -37,7 +37,7 @@ jobs:
           echo "storeFile =/home/runner/work/ClashForAndroid/ClashForAndroid/clash-release-key.jks" >> /home/runner/work/ClashForAndroid/ClashForAndroid/keystore.properties
           echo "storePassword = $KEYSTORE_PWD" >> /home/runner/work/ClashForAndroid/ClashForAndroid/keystore.properties
           echo "keyAlias = clash-release-key" >> /home/runner/work/ClashForAndroid/ClashForAndroid/keystore.properties
-          echo "keyPassword = %KEYSTORE_PWD" >> /home/runner/work/ClashForAndroid/ClashForAndroid/keystore.properties
+          echo "keyPassword = %KEY_PWD" >> /home/runner/work/ClashForAndroid/ClashForAndroid/keystore.properties
       
    
      
